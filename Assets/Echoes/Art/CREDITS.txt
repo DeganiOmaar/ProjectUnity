@@ -1,0 +1,6 @@
+Third-party assets (all CC0 / public domain):
+- Textures: Poly Haven (polyhaven.com) - brick_wall_006, concrete_floor_worn_001, dirty_concrete. CC0.
+- Monster model: "Zombie" by Quaternius (via poly.pizza/m/VlXjG0N8Eg). CC0.
+- Partner model: "Hoodie Character" by Quaternius (via poly.pizza/m/gKLBoRsyKe). CC0.
+- Audio: synthesized procedurally at runtime (Scripts/Core/AudioSynth.cs).
+- Fonts: Rajdhani, Share Tech Mono (Google Fonts, SIL Open Font License).

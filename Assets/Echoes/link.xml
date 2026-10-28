@@ -1,0 +1,9 @@
+<!-- GameObject.CreatePrimitive needs these colliders at runtime; nothing in the scene references them,
+     so IL2CPP stripping would remove them from device builds. -->
+<linker>
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all"/>
+    <type fullname="UnityEngine.BoxCollider" preserve="all"/>
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+  </assembly>
+</linker>
